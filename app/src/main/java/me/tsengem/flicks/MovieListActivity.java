@@ -144,7 +144,7 @@ public class MovieListActivity extends AppCompatActivity {
     }
 
     // handle errors, log and alert user
-    private void logError(String message, Throwable error, boolean alertUser) {
+    private void logError(String message, Throwable error, boolean alertUser) { 
         // always log the error
         Log.e(TAG, message, error);
 
