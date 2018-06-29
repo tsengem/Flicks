@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_toEndOf="@+id/ivBackdropImage"
-        android:text="Movie Title"
+        android:text="@string/movie_title"
         android:textAppearance="@android:style/TextAppearance.Medium" />
 
     <TextView
@@ -30,5 +30,5 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvTitle"
         android:layout_toEndOf="@+id/ivBackdropImage"
-        android:text="Movie synopsis" />
+        android:text="@string/movie_synopsis" />
 </RelativeLayout>

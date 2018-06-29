@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_toEndOf="@+id/ivPosterImage"
-        android:text="Movie Title"
+        android:text="@string/movie_title"
         android:textAppearance="@android:style/TextAppearance.Large" />
 
     <TextView
@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvTitle"
         android:layout_toRightOf="@+id/ivPosterImage"
-        android:text="Movie overview and synopsis"
+        android:text="@string/movie_overview_and_synopsis"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:textAppearance="@android:style/TextAppearance.Small" />

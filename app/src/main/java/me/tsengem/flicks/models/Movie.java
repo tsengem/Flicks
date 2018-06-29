@@ -46,7 +46,5 @@ public class Movie {
         return backdropPath;
     }
 
-    public Double getVoteAverage() {
-        return voteAverage;
-    }
+    public Double getVoteAverage() { return voteAverage; }
 }
